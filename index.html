@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pyke The BloodHarbor Ripper</title>
   </head>
+  <script>
+    function clickFuntion() {
+      alert("Welcome to the List!");
+    }
+  </script>
   <body>
     <!--header, containing the logo and h1 of the main webpage(index)-->
     <header>
@@ -20,7 +25,39 @@
       </h1>
     </header>
     <nav>
-      <a href="/page2/">Art and Links Page</a>
+      <a href="https://universe.leagueoflegends.com/en_US/champion/pyke/"
+        >Pykes Lore</a
+      >
+      <br />
+      <a href="index.html">Main Page</a>
+      <br />
+      <a href="page2.html">Art and Links Page</a>
     </nav>
+
+    <article>
+      <h2>Why Pyke?</h2>
+      <p>
+        Pyke is my favourite character in league of legends. I have over
+        <u>170k</u> mastery and over 300 games on him.<br />
+        I like Pyke because hes a cool character with interesting lore. Pyke has
+        5 skins in league of legends with a <br />sixth coming out soon, i own
+        the current five and plan to get the next one when it releases
+        <del>(though i shouldnt).</del>
+      </p>
+    </article>
+    <main>
+      <form>
+        <legend>Join Pyke's List!!</legend>
+
+        <label>Your Full Name</label>
+        <input type="text" />
+        <label>Date you'd like to meet Pyke</label>
+        <input type="date" />
+        <label>Reset Info</label>
+        <input type="reset" />
+        <label>Submit Info</label>
+        <input type="submit" id="submit1" onClick="clickFuntion()" />
+      </form>
+    </main>
   </body>
 </html>
